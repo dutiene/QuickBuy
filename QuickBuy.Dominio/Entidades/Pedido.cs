@@ -38,6 +38,7 @@ namespace QuickBuy.Dominio.Entidades
 
             if (FormaPagamentoId == 0)
                 AdicionarCritica("Não foi informado a forma da pagamento");
+
         }
     }
 }
