@@ -31,10 +31,13 @@ namespace QuickBuy.Dominio.Entidades
             LimparMensagensValidacao();
 
             if (!ItensPedidos.Any())
-                AdicionarCritica("Crítica - Pedido não pode ficar sem item de pedido");
+                AdicionarCritica("Pedido não pode ficar sem item de pedido");
 
             if (string.IsNullOrEmpty(CEP))
-                AdicionarCritica("Crítica - CEP deve estar preenchido");
+                AdicionarCritica("CEP deve estar preenchido");
+
+            if (FormaPagamentoId == 0)
+                AdicionarCritica("Não foi informado a forma da pagamento");
         }
     }
 }
