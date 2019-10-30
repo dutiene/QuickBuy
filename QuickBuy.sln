@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Dominio", "QuickBuy.Dominio\QuickBuy.Dominio.csproj", "{8824620E-DA92-47E5-A5F5-C44E0A618D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Repositorio", "QuickBuy.Repositorio\QuickBuy.Repositorio.csproj", "{ECCCA750-EFFA-43D0-BCB5-D9724CBDCDAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Web", "QuickBuy.Web\QuickBuy.Web.csproj", "{F8843886-31FB-453B-AA5C-5789591AF6A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8824620E-DA92-47E5-A5F5-C44E0A618D79}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{8824620E-DA92-47E5-A5F5-C44E0A618D79}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{8824620E-DA92-47E5-A5F5-C44E0A618D79}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{8824620E-DA92-47E5-A5F5-C44E0A618D79}.Release|anycpu.Build.0 = Release|Any CPU
+		{ECCCA750-EFFA-43D0-BCB5-D9724CBDCDAA}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{ECCCA750-EFFA-43D0-BCB5-D9724CBDCDAA}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{ECCCA750-EFFA-43D0-BCB5-D9724CBDCDAA}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{ECCCA750-EFFA-43D0-BCB5-D9724CBDCDAA}.Release|anycpu.Build.0 = Release|Any CPU
+		{F8843886-31FB-453B-AA5C-5789591AF6A9}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{F8843886-31FB-453B-AA5C-5789591AF6A9}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{F8843886-31FB-453B-AA5C-5789591AF6A9}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{F8843886-31FB-453B-AA5C-5789591AF6A9}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
