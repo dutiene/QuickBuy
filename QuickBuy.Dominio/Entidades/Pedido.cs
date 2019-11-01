@@ -18,7 +18,9 @@ namespace QuickBuy.Dominio.Entidades
         public int NumeroEndereco { get; set; }
         public int FormaPagamentoId { get; set; }
 
+        public virtual Usuario Usuario { get; set; }
         public FormaPagamento FormaPagamento { get; set; }
+
 
         /// <summary>
         /// Pedido deve ter pelo menos um item de pedido
